@@ -1,4 +1,4 @@
-# *Guess the number* web app
+# *Roll the dice* web app
 
 **Table of content**
 
