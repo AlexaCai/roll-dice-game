@@ -26,7 +26,7 @@ main {
   position: relative;
   width: 100rem;
   height: 60rem;
-  background-color: rgba(255, 255, 255, 0.35);
+  background-color: rgba(255, 255, 255, 0.60);
   backdrop-filter: blur(200px);
   filter: blur();
   box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.25);
@@ -57,12 +57,12 @@ main {
 .score {
   font-size: 8rem;
   font-weight: 300;
-  color: #0eb1b1;
+  color: #000000;
   margin-bottom: auto;
 }
 
 .player--active {
-  background-color: rgba(255, 255, 255, 0.80);
+  background-color: rgba(255, 255, 255, 0.95);
 }
 .player--active .name {
   font-weight: 700;
@@ -76,7 +76,7 @@ main {
 }
 
 .current {
-  background-color: #f4ff8f;
+  background-color: #ebfa66;
   opacity: 0.8;
   border-radius: 9px;
   color: black;
@@ -104,7 +104,7 @@ main {
   transform: translateX(-50%);
   color: #444;
   background: none;
-  border: none;
+  border: 1px solid black;
   font-family: inherit;
   font-size: 1.8rem;
   text-transform: uppercase;
@@ -156,12 +156,13 @@ main {
 }
 
 .player--winner {
-  background-color: #2f2f2f;
+  background-color: #acf4f7;
+  border: 1px solid black;
 }
 
 .player--winner .name {
   font-weight: 700;
-  color: #c7365f;
+  color: #000000;
 }
 
 .hidden {
