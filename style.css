@@ -14,10 +14,12 @@ html {
 body {
   font-family: 'Nunito', sans-serif;
   font-weight: 400;
-  height: 100vh;
+  min-height: 100vh;
   color: #333;
   background-image: linear-gradient(to top left, #0cb3b3 0%, #f3f572 75%);
+  margin-top: 35px;
   display: flex;
+  flex-direction: column; 
   align-items: center;
   justify-content: center;
 }
@@ -128,13 +130,17 @@ main {
 }
 
 .btn--new {
-  top: 4rem;
+  top: 9rem;
 }
 .btn--roll {
-  top: 39.3rem;
+  top: 39rem;
 }
 .btn--hold {
-  top: 46.1rem;
+  top: 46rem;
+}
+.btn--rules {
+  top: 53rem;
+  text-decoration: none;
 }
 
 .btn:active {
@@ -149,7 +155,7 @@ main {
 .dice {
   position: absolute;
   left: 50%;
-  top: 16.5rem;
+  top: 22rem;
   transform: translateX(-50%);
   height: 10rem;
   box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.2);
@@ -167,4 +173,37 @@ main {
 
 .hidden {
   display: none;
+}
+
+.rules-section {
+  margin-left: 20rem;
+  margin-right: 20rem;
+}
+
+.rules {
+  text-align: center;
+  font-size: 50px;
+  margin-top: 5rem;
+}
+
+.rules-subtitltes {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+li {
+  text-align: left;
+  margin-bottom: 1rem;
+}
+
+.rules-text {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 20px
+}
+
+.last-rules-block {
+  margin-bottom: 7rem;
 }
