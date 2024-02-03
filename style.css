@@ -16,7 +16,7 @@ body {
   font-weight: 400;
   min-height: 100vh;
   color: #333;
-  background-image: linear-gradient(to top left, #0cb3b3 0%, #f3f572 75%);
+  background-image: linear-gradient(to top left, #0cb3b3 0%, #f3f572 100%);
   margin-top: 35px;
   display: flex;
   flex-direction: column; 
